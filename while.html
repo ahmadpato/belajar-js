@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>while</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var ulangi  = confirm("Apakah Anda Akan Mengulang?");
+		var counter = 0;
+
+		while(ulangi){
+			counter++;
+			ulangi = confirm("Apakah Anda Akan Mengulang?");
+		}
+
+		document.write("Perulangan sudah dilakukan sebanyak " + counter + " kali");
+	</script>
+</body>
+</html>
